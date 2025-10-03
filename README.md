@@ -1,10 +1,6 @@
 # 🧑‍💻 Personal Portfolio Showcase - Piêtro Braga Aquino Júnior
 
-<div>
-  <img width="1000" alt="image" src="https://github.com/user-attachments/assets/1db55ae8-ff35-4029-8bf6-b1e7e5837c54" />
-</div>
-
-
+![2025-10-03 12-28-52](https://github.com/user-attachments/assets/62be6500-879d-4370-88b1-1da235ee9a0a)
 
 > **💬 Quick Overview:** This is my personal and interactive portfolio, created to showcase my software development skills, professional experience, and key projects. It serves as a direct point of contact for recruiters and collaborators.
 
