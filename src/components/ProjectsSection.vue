@@ -13,7 +13,7 @@ import {NGrid, NGi} from 'naive-ui'
     <h1>Featured Projects</h1>
     <h3>A selection of work demonstrating my skills and <span class="h3corAzul">hands-on</span> experience.</h3>
 
-     <n-grid class="grid" :x-gap="12" :y-gap="12" :cols="3">
+     <n-grid class="grid" :x-gap="12" :y-gap="48" :cols="3">
       <n-gi>
         <CardProjeto :image="springImage" title="Spring Boot Clean Arch Api (JPA)" :text-list="[
            'Frameworks: Spring Boot (Java), JPA, H2 Memory Database.',
