@@ -29,7 +29,7 @@
 
 | Status | Live Demo Link |
 | :--- | :--- |
-| ✅ **Deployed** | **[Visit My Portfolio](https://pietrobragaaquinojunior.github.io/my-personal-portfolio/)** |
+| ✅ **Deployed** | <a href="https://pietrobragaaquinojunior.github.io/my-personal-portfolio/" target="_blank">**Visit My Portfolio**</a> |
 
 
 ---
