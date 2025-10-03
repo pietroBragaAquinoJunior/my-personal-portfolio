@@ -33,7 +33,7 @@
 
 | Status | Live Demo Link |
 | :--- | :--- |
-| 🚧 **In Development** | **[link here](www.google.com)** |
+| 🚧 **In Development** | **[In Development](www.google.com)** |
 
 ---
 
