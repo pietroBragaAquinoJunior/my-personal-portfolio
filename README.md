@@ -29,7 +29,8 @@
 
 | Status | Live Demo Link |
 | :--- | :--- |
-| 🚧 **In Development** | **[In Development](www.google.com)** |
+| ✅ **Deployed** | **[Visit My Portfolio](https://pietrobragaaquinojunior.github.io/my-personal-portfolio/)** |
+
 
 ---
 
