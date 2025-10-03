@@ -1,7 +1,7 @@
 # 🧑‍💻 Personal Portfolio Showcase - Piêtro Braga Aquino Júnior
 
 <div>
-  <img width="1617" height="924" alt="image" src="https://github.com/user-attachments/assets/1db55ae8-ff35-4029-8bf6-b1e7e5837c54" />
+  <img width="1000" alt="image" src="https://github.com/user-attachments/assets/1db55ae8-ff35-4029-8bf6-b1e7e5837c54" />
 </div>
 
 
