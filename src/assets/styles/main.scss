@@ -1,0 +1,19 @@
+@use 'variaveis';
+@use 'tipografia';
+@use 'botoes';
+@use 'scrollbar';
+@use 'animacoes';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: variaveis.$cor-fundo-principal;
+}

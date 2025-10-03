@@ -1,0 +1,16 @@
+@use 'variaveis';
+
+button {
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  color: variaveis.$cor-fonte-principal;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    opacity: 90%;
+  }
+}

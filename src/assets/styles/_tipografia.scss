@@ -1,0 +1,23 @@
+@use 'variaveis';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.6;
+  color: variaveis.$cor-fonte-principal;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: variaveis.$cor-fonte-principal;
+  font-weight: 500;
+  font-size: 20px;
+  &:hover {
+    color: variaveis.$cor-vermelho;
+  }
+}
+
+li {
+  font-size: 20px;
+}
