@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import ContatoSection from '@/components/ContatoSection.vue'
 import GridTecnologies from '@/components/GridTecnologies.vue'
 import InicioSection from '@/components/InicioSection.vue'
-import WorkSection from '@/components/JobsSection.vue'
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue'
