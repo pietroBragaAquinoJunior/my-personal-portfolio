@@ -5,6 +5,7 @@ import InicioSection from '@/components/InicioSection.vue'
 import WorkSection from '@/components/JobsSection.vue'
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
+import ExperienceSection from '@/components/ExperienceSection.vue'
 
 const scrollNaPosicaoInicial = ref(true)
 
@@ -29,10 +30,9 @@ onUnmounted(() => {
   <div class="divMenu" :class="{ flutuante: flutuando }">
     <nav>
       <a href="#inicio">Home</a>
-      <a href="#job">Jobs</a>
+      <a href="#experience">Experience</a>
       <a href="#tecnologies">Tecnologies</a>
       <a href="#projects">Projects</a>
-      <a href="#contato">Contato</a>
     </nav>
   </div>
   <div :class="{ substituto: flutuando }"></div>
@@ -40,17 +40,14 @@ onUnmounted(() => {
     <section class="section" id="inicio">
       <InicioSection />
     </section>
-    <section class="section" id="job">
-      <WorkSection />
+    <section class="section" id="experience">
+      <ExperienceSection />
     </section>
     <section class="section" id="tecnologies">
       <GridTecnologies />
     </section>
     <section class="section cor-preta" id="projects">
       <ProjectsSection />
-    </section>
-    <section class="section" id="contato">
-      <ContatoSection />
     </section>
   </div>
 </template>

@@ -41,7 +41,7 @@ import {NGrid, NGi} from 'naive-ui'
             'Component Library: Naive UI for specific components.',
             'Organization: Component-based architecture with data flow via Props.',
             'Build Tool: Vite for a fast development and build experience.']"
-            linkToProject="https://github.com/pietroBragaAquinoJunior/spring-boot-clean-arch-mybatis-api/"
+            linkToProject="https://github.com/pietroBragaAquinoJunior/my-personal-portfolio"
             />
       </n-gi>
     </n-grid>

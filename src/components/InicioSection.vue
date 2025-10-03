@@ -12,6 +12,10 @@ const openLinkedin = () => {
   window.open("https://www.linkedin.com/in/pietrobragaprofissional/", "_blank")
 }
 
+const openResume = () => {
+  window.open("https://docs.google.com/document/d/1pRGp0hriTj0rYl7ICifWTolocdETmijHsOM91Fh4HL8/export?format=pdf", "_blank")
+}
+
 </script>
 
 <template>
@@ -34,6 +38,9 @@ const openLinkedin = () => {
           </button>
           <button class="buttonLinkedin" @click="openLinkedin">
             Contact via Linkedin 👔
+          </button>
+          <button class="buttonResume" @click="openResume">
+            Resume in Pdf 📄
           </button>
         </div>
 
@@ -117,5 +124,9 @@ const openLinkedin = () => {
 
 .buttonLinkedin{
   background: #0A66C2;
+}
+
+.buttonResume{
+  background: variaveis.$cor-roxa;
 }
 </style>
