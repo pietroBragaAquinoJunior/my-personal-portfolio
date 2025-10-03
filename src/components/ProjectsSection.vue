@@ -2,6 +2,7 @@
 
 import springImage from "@/assets/images/spring.png";
 import vueImage from "@/assets/images/vue.png";
+import htmlCssJs from "@/assets/images/htmlCssJs.png"
 import CardProjeto from "./CardProjeto.vue";
 import {NGrid, NGi} from 'naive-ui'
 
@@ -43,6 +44,20 @@ import {NGrid, NGi} from 'naive-ui'
             'Build Tool: Vite for a fast development and build experience.']"
             linkToProject="https://github.com/pietroBragaAquinoJunior/my-personal-portfolio"
             />
+      </n-gi>
+      <n-gi>
+          <CardProjeto
+              :image="htmlCssJs"
+              title="Public Transparency Portal"
+              :text-list="[
+                  'Role: Frontend Developer.',
+                  'Scope: 7-month project spanning multiple thematic sections.',
+                  'Design: Developed adaptive (mobile-first) layout, strictly following the design provided by the team.',
+                  'Technologies: Html5, Css3 and Javascript.',
+                  'Differential: Strong focus on accessibility to serve users with disabilities.'
+              ]"
+              linkToProject="https://www.transparencia.ma.gov.br/"
+          />
       </n-gi>
     </n-grid>
 
