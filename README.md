@@ -1,48 +1,42 @@
-# portfolio
+# 🧑‍💻 Personal Portfolio Showcase - Piêtro Braga Aquino Júnior
 
-This template should help get you started developing with Vue 3 in Vite.
+<img width="1617" height="924" alt="image" src="https://github.com/user-attachments/assets/1db55ae8-ff35-4029-8bf6-b1e7e5837c54" />
 
-## Recommended IDE Setup
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+> **💬 Quick Overview:** This is my personal and interactive portfolio, created to showcase my software development skills, professional experience, and key projects. It serves as a direct point of contact for recruiters and collaborators.
 
-## Recommended Browser Setup
+---
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 🧩 Key Features & Highlights
 
-## Type Support for `.vue` Imports in TS
+* **Detailed Experience:** Dedicated sections outlining my professional journey, work history, and **core technical skills**.
+* **Project Showcase:** A curated list of personal and collaborative projects, complete with links to live demos and source code.
+* **Technology Stack Demonstration:** Real-world usage of **Vue.js 3, Sass, and Naive UI** showcasing clean, modular, and maintainable code.
+* **Direct Contact:** Easy access to my professional contact channels (LinkedIn, GitHub, Email).
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## ⚙️ Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+| Category | Technologies |
+| :--- | :--- |
+| **Framework/Library** | **Vue.js 3** (Composition API) |
+| **Styling** | **Sass** (CSS Preprocessor) |
+| **UI Components** | **Naive UI** (Comprehensive Vue 3 Component Library) |
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## ⏳ Live Status and Deployment
 
-### Compile and Hot-Reload for Development
+| Status | Live Demo Link |
+| :--- | :--- |
+| 🚧 **In Development** | **[link here](www.google.com)** |
 
-```sh
-npm run dev
-```
+---
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## 🛠 Local Installation and Setup
+- Node version: v22.20.0
+- Clone the repository: `git clone https://github.com/pietroBragaAquinoJunior/my-personal-portfolio`
+- Navigate to the directory: `cd portfolio-project-name`
+- Install dependencies: `npm install` (or `yarn`)
+- Run the application: `npm run dev`
