@@ -32,7 +32,7 @@ onUnmounted(() => {
       <a href="#experience">Experience</a>
       <a href="#tecnologies">Tecnologies</a>
       <a href="#projects">Featured Projects</a>
-      <a href="#minorProjects">Minor Projects</a>
+      <a href="#minorProjects">Smaller projects</a>
       <a href="#certificates">Certificates</a>
     </nav>
   </div>
