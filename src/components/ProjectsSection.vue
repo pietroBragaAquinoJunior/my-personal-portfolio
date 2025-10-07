@@ -35,6 +35,20 @@ import {NGrid, NGi} from 'naive-ui'
            linkToProject="https://github.com/pietroBragaAquinoJunior/spring-boot-clean-arch-mybatis-api/"
             />
       </n-gi>
+       <n-gi>
+        <CardProjeto
+            :image="springImage"
+            title="Spring Security API (JWT + RSA)"
+            :text-list="[
+                'Frameworks: Spring Boot (Java), JPA (Hibernate), H2 Memory Database.',
+                'Architecture: Ports and Adapters (Hexagonal), Clean Code Principles.',
+                'Security: JWT Authentication, RSA Keys, Spring Security 6.5.5.',
+                'Mappers: MapStruct for type-safe and performant DTO / Domain / Entity mapping.',
+                'Robustness: Global Exception Handlers (@RestControllerAdvice), Spring Validation.'
+            ]"
+            linkToProject="https://github.com/pietroBragaAquinoJunior/spring-security"
+        />
+      </n-gi>
       <n-gi>
             <CardProjeto :image="vueImage" title="My Personal Portfolio" :text-list="[
             'Frontend Framework: Vue.js 3 (Composition API & <script setup>).',
