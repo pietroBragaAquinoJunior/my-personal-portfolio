@@ -31,7 +31,9 @@ onUnmounted(() => {
       <a href="#inicio">Home</a>
       <a href="#experience">Experience</a>
       <a href="#tecnologies">Tecnologies</a>
-      <a href="#projects">Projects</a>
+      <a href="#projects">Featured Projects</a>
+      <a href="#minorProjects">Minor Projects</a>
+      <a href="#certificates">Certificates</a>
     </nav>
   </div>
   <div :class="{ substituto: flutuando }"></div>
@@ -48,7 +50,7 @@ onUnmounted(() => {
     <section class="section cor-preta" id="projects">
       <ProjectsSection />
     </section>
-    <section class="section" id="tecnologies">
+    <section class="section" id="certificates">
       <MyCertificates />
     </section>
   </div>
@@ -84,7 +86,7 @@ nav {
   scroll-margin-top: 75px;
 }
 
-.cor-preta{
+.cor-preta {
   background: variaveis.$cor-fundo-escuro;
 }
 </style>

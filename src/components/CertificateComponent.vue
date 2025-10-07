@@ -1,11 +1,9 @@
 <script setup lang="ts">
-
-  defineProps<{
-    image?: string,
-    url?: string,
-    credential?: string,
-  }>()
-
+defineProps<{
+  image?: string
+  url?: string
+  credential?: string
+}>()
 </script>
 
 <template>
@@ -19,28 +17,26 @@
 </template>
 
 <style scoped lang="scss">
-
 @use '../assets/styles/variaveis';
 
-.container{
+.container {
   max-width: 150px;
 }
 
-.image{
+.image {
   width: 400px;
   height: 300px;
   border-radius: 15px;
 }
 
-.nivel-wrapper{
+.nivel-wrapper {
   padding-top: 10px;
   display: flex;
   justify-content: center;
   gap: 5px;
 }
-.link{
+.link {
   cursor: pointer;
   color: variaveis.$cor-roxa;
 }
-
 </style>

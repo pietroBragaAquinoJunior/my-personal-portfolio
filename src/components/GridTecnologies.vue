@@ -1,29 +1,29 @@
 <script setup lang="ts">
-
 import CardTecnologia from './CardTecnologia.vue'
-import springSvg from "@/assets/images/tecnologias/spring.svg";
-import javaSvg from "@/assets/images/tecnologias/java.svg";
-import vueSvg from "@/assets/images/tecnologias/vue.svg";
-import javascriptSvg from "@/assets/images/tecnologias/javascript.svg";
-import typescriptSvg from "@/assets/images/tecnologias/typescript.svg";
-import gitSvg from "@/assets/images/tecnologias/git.svg";
-import postmanSvg from "@/assets/images/tecnologias/postman.svg";
-import postgresSvg from "@/assets/images/tecnologias/postgres.svg";
-import htmlSvg from "@/assets/images/tecnologias/html.svg";
-import cssSvg from "@/assets/images/tecnologias/css.svg";
-import sassSvg from "@/assets/images/tecnologias/sass.svg";
-import bootstrapSvg from "@/assets/images/tecnologias/bootstrap.svg";
-import dockerSvg from "@/assets/images/tecnologias/docker.svg";
-import pythonSvg from "@/assets/images/tecnologias/python.svg";
-import golangSvg from "@/assets/images/tecnologias/golang.svg";
-import { NGrid, NGi } from 'naive-ui';
-
+import springSvg from '@/assets/images/tecnologias/spring.svg'
+import javaSvg from '@/assets/images/tecnologias/java.svg'
+import vueSvg from '@/assets/images/tecnologias/vue.svg'
+import javascriptSvg from '@/assets/images/tecnologias/javascript.svg'
+import typescriptSvg from '@/assets/images/tecnologias/typescript.svg'
+import gitSvg from '@/assets/images/tecnologias/git.svg'
+import postmanSvg from '@/assets/images/tecnologias/postman.svg'
+import postgresSvg from '@/assets/images/tecnologias/postgres.svg'
+import htmlSvg from '@/assets/images/tecnologias/html.svg'
+import cssSvg from '@/assets/images/tecnologias/css.svg'
+import sassSvg from '@/assets/images/tecnologias/sass.svg'
+import bootstrapSvg from '@/assets/images/tecnologias/bootstrap.svg'
+import dockerSvg from '@/assets/images/tecnologias/docker.svg'
+import pythonSvg from '@/assets/images/tecnologias/python.svg'
+import golangSvg from '@/assets/images/tecnologias/golang.svg'
+import { NGrid, NGi } from 'naive-ui'
 </script>
 
 <template>
   <div class="card">
     <h1>Daily Technology Use & Expertise</h1>
-    <h3>Proficiency levels based on my frequent, <span class="h3CorVermelha">day-to-day</span> work.</h3>
+    <h3>
+      Proficiency levels based on my frequent, <span class="h3CorVermelha">day-to-day</span> work.
+    </h3>
 
     <n-grid class="grid" :x-gap="12" :y-gap="12" :cols="4">
       <n-gi>
@@ -88,11 +88,11 @@ import { NGrid, NGi } from 'naive-ui';
   padding-bottom: 75px;
 }
 
-.grid{
+.grid {
   padding-top: 75px;
 }
 
-.h3CorVermelha{
+.h3CorVermelha {
   color: variaveis.$cor-vermelho;
 }
 </style>

@@ -57,29 +57,36 @@ const openTransparenciaPortalLink = () => {
       </div>
     </div>
 
-     <div class="card">
+    <div class="card">
       <h1 class="h1CorAzul">💻 Front-End Developer (01/2022 to 09/2022)</h1>
       <h3 class="h3ComBorda">
-        State Secretariat for Transparency and Control of Maranhão (SETC) - São Luís, Maranhão, Brazil
+        State Secretariat for Transparency and Control of Maranhão (SETC) - São Luís, Maranhão,
+        Brazil
       </h3>
       <ul>
         <li>
-          ✅ Integral participation in the creation of a public website focused on transparency for consulting government information.
+          ✅ Integral participation in the creation of a public website focused on transparency for
+          consulting government information.
         </li>
         <li>
-          ♿ Strong focus on Accessibility (WCAG), ensuring the public portal was usable by all citizens, in alignment with public service guidelines.
+          ♿ Strong focus on Accessibility (WCAG), ensuring the public portal was usable by all
+          citizens, in alignment with public service guidelines.
         </li>
         <li>
-          🎨 Development of custom UI/UX components from scratch using plain HTML, CSS, and JavaScript, resulting in a unique and high-performance interface.
+          🎨 Development of custom UI/UX components from scratch using plain HTML, CSS, and
+          JavaScript, resulting in a unique and high-performance interface.
         </li>
         <li>
-          📱 Created responsive web applications (mobile-first approach) optimized for performance and usability across various devices.
+          📱 Created responsive web applications (mobile-first approach) optimized for performance
+          and usability across various devices.
         </li>
         <li>
-          🌐 Ensured cross-browser compatibility through rigorous testing, providing a consistent user experience on all platforms.
+          🌐 Ensured cross-browser compatibility through rigorous testing, providing a consistent
+          user experience on all platforms.
         </li>
         <li>
-          ⚙️ Utilized Git for version control, efficient source code management, and streamlined team collaboration.
+          ⚙️ Utilized Git for version control, efficient source code management, and streamlined
+          team collaboration.
         </li>
       </ul>
       <div class="divForButton">
@@ -110,7 +117,7 @@ const openTransparenciaPortalLink = () => {
   color: variaveis.$cor-vermelho;
   padding-bottom: 10px;
 }
-.h1CorAzul{
+.h1CorAzul {
   color: variaveis.$cor-azul;
   padding-bottom: 10px;
 }
@@ -128,10 +135,10 @@ ul li {
   justify-content: center;
   align-items: center;
 }
-.buttonVermelho{
+.buttonVermelho {
   background: variaveis.$cor-vermelho;
 }
-.buttonAzul{
+.buttonAzul {
   background: variaveis.$cor-azul;
 }
 </style>

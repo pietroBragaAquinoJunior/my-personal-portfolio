@@ -1,43 +1,33 @@
 <script setup lang="ts">
-
-  defineProps<{
-    icone?: string,
-    nivel?: number,
-  }>()
-
+defineProps<{
+  icone?: string
+  nivel?: number
+}>()
 </script>
 
 <template>
   <div class="container">
     <img class="image" :src="icone" />
     <div class="nivel-wrapper">
-      <div class="girarInfinito" v-for="i in nivel" :key="i">
-        ⭐
-      </div>
+      <div class="girarInfinito" v-for="i in nivel" :key="i">⭐</div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-
-
-
-.container{
+.container {
   max-width: 150px;
 }
 
-.image{
+.image {
   width: 125px;
   height: 125px;
 }
 
-.nivel-wrapper{
+.nivel-wrapper {
   padding-top: 10px;
   display: flex;
   justify-content: center;
   gap: 5px;
 }
-
-
-
 </style>
