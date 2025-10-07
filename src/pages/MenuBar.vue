@@ -4,6 +4,7 @@ import InicioSection from '@/components/InicioSection.vue'
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue'
+import MyCertificates from '@/components/MyCertificates.vue'
 
 const scrollNaPosicaoInicial = ref(true)
 
@@ -46,6 +47,9 @@ onUnmounted(() => {
     </section>
     <section class="section cor-preta" id="projects">
       <ProjectsSection />
+    </section>
+    <section class="section" id="tecnologies">
+      <MyCertificates />
     </section>
   </div>
 </template>
